@@ -6,11 +6,13 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.4.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
+
     </parent>
+
     <groupId>com.mycompany.app</groupId>
     <artifactId>SpringMicroservices</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
     <name>SpringMicroservices</name>
     <packaging>pom</packaging>
     <url/>
