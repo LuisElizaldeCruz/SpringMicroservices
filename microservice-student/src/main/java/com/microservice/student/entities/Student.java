@@ -22,7 +22,7 @@ public class Student {
     private String lastName;
     private String email;
 
-    @Column(name = "cousrse_id")
+    @Column(name = "course_id")
     private Long courseId;
 
 }
