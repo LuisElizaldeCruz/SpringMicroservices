@@ -35,7 +35,7 @@ public class CourseServiceImpl implements ICourseService{
     }
 
     @Override
-    public StudentByCourseResponse findStudentByIdCourses(Long idCourse) {
+    public StudentByCourseResponse findStudentsByIdCourse(Long idCourse) {
 
         //consultar el curso
         Course course = coursesRespository.findById(idCourse).orElse(new Course());

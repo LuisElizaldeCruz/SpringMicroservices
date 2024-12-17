@@ -12,5 +12,5 @@ public interface ICourseService {
 
     void save(Course course);
 
-    StudentByCourseResponse findStudentByIdCourses(Long idCourse);
+    StudentByCourseResponse findStudentsByIdCourse(Long idCourse);
 }
